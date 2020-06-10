@@ -345,39 +345,6 @@ int main()
 		num[i] += num[i - 1];
 		i++;
 
-		//            while(1){
-		//                int k=0;
-		//                while ((ch1=getchar())!=':') {
-		//                    if (ch1<='9'&&ch1>='0') {
-		//                        tmp=10*tmp+ch1-'0';
-		//                    }
-		//                    else {
-		//                        a[i-1][j].m[k]=tmp;
-		//                        k++;
-		//                        tmp=0;
-		//                    }
-		//                }
-		//                a[i-1][j].m[k]=-1;
-		//                cin>>a[i-1][j].t;
-		//                facx[++tot]=i-1;
-		//                facy[tot]=j;
-		//                ch=getchar();
-		//                if(ch=='\n'||ch=='\r')
-		//                {
-		//                    ch=getchar();
-		//                    break;
-		//                }
-		//                    j++;
-		////                    scanf("%d %d",&a[i-1][j].m,&a[i-1][j].t);
-		////                    facx[++tot]=i-1;
-		////                    facy[tot]=j;
-		////                    ch=getchar();
-		////
-		////                    if(ch=='\n'||ch=='\r')
-		////                    break;
-		////                      j++;
-		//                }
-
 	}
 	GeneticAlgorithm();
 
